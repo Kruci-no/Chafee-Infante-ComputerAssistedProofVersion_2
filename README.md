@@ -125,6 +125,7 @@ The rigorous C0 integration is performed in the odd subspace of Fourier coeffici
 The rigorous C1 integration is conducted in full space, not just in the odd subspace. In this case, there are variables representing variational equations. Therefore, the actual number of modes used for differential inclusion is $2 * \text{mainC1Size}$ and the number of modes explicitly represented is $2 * \text{fullC1Size}$.
 
 The remaining columns are computed by setting them to be:
+
 $$
     X^{0,h} = \sum_{i=\text{expColumns}+1}^\infty u_i\sin(ix),\quad \text{where } u_i\in[-1,1].
 $$
