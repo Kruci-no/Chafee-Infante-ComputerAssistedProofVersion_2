@@ -133,10 +133,10 @@ $$
 This program is used to get the estimate for $\frac{\partial T}{\partial x}(X_0) X^{h,0},$ and print it. The set $X^0$ is prepared in the same way as in the program `ChafeeInfante\CAProof.cpp`. Set $X^{0,h}$ is in the form
 
 $$
-X^{0,h}=\sum_{i=1}^n h^0_i\sin(ix) + \sum_{i=n+1}^\infty \frac{[-1,1]}{k^s}
+X^{0,h}=\sum_{i=1}^n h^0_i\sin(ix) + \sum_{i=n+1}^\infty \frac{[-C_h,C_h]}{k^s_h}
 $$
 
-
+The coefficients $h^0_i$ are taken from the file `ChafeeInfante/textFiles/initialValue.txt`. The parametrs $C_h$ and $s_h$ are also taken from this file. So in this case `ChafeeInfante/textFiles/initialValue.txt` should have the following form.
 ## Code Information
 
 - The programs are using the [CAPD library](http://capd.ii.uj.edu.pl/index.php) - a tool for nonrigorous and validated numerics for dynamical systems.
