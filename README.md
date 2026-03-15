@@ -76,7 +76,7 @@ $$ T(X^0) \subset X^0 $$
 If this condition is satisfied, it confirms the existence of a periodic orbit. The program utilizes a rigorous C0 algorithm for integrating partial differential equations (PDEs) to compute the image. Additionally, it attempts to prove that the orbit is locally attracting by verifying:
 
 $$
-||\frac{\partial T}{\partial x}(X_0)||_{C_0} < 1.
+\left|\left|\frac{\partial T}{\partial x}(X_0)\right|\right|_{C_0} < 1.
 $$
 
 The computation of derivatives employs a rigorous C1 integration algorithm.
