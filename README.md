@@ -131,6 +131,8 @@ $$
 $$
 
 ## ChafeeInfante\C1AroundUstableOrbit.cpp
+This program is used to get the estimate for $\frac{\partial T}{\partial x}(X_0) X^{h,0},$ and print it. The set $X^0$ is prepared in the same way as in the program `ChafeeInfante\CAProof.cpp`  
+
 
 ## Code Information
 
