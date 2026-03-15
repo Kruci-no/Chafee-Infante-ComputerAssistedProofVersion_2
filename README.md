@@ -133,20 +133,30 @@ $$
 This program is used to get the estimate for $\frac{\partial T}{\partial x}(X_0) X^{h,0},$ and print it. The set $X^0$ is prepared in the same way as in the program `ChafeeInfante\CAProof.cpp`. Set $X^{0,h}$ is in the form
 
 $$
-X^{0,h}=\sum_{i=1}^n h^0_i\sin(ix) + \sum_{i=n+1}^\infty \frac{[-C_h,C_h]}{k^s_h}
+X^{0,h}=\sum_{i=1}^n h^0_i\sin(ix) + \sum_{i=n+1}^\infty \frac{[-C_h,C_h]}{k^{s_h}}
 $$
 
 The coefficients $h^0_i$ are taken from the file `ChafeeInfante/textFiles/initialValue.txt`. The parametrs $C_h$ and $s_h$ are also taken from this file. So in this case `ChafeeInfante/textFiles/initialValue.txt` should have the following form:
 
 ```
 {0,0,0,0,0,0,0,0,0,0}
-{1,1,1,1,0,0,0,0,0,0}
+{1,0,0,0,0,0,0,0,0,0}
 0 3
 -------------
 First line u^0 coefficints
 Second line h^0 coefficints
 Third line C_h and s_h
 ```
+For this file, $X^0$ is build around zero and $h^0 = \sin(x).$ If this file would have the form
+```
+{0,0,0,0,0,0,0,0,0,0}
+{0,0,0}
+[-1,1] -3
+```
+Then the set $X^{0,h}$ has the form 
+$$
+X^{0,h} = \sum_{i=4}^\infty [-1,1]i^3
+$$
 ## Code Information
 
 - The programs are using the [CAPD library](http://capd.ii.uj.edu.pl/index.php) - a tool for nonrigorous and validated numerics for dynamical systems.
