@@ -16,6 +16,7 @@ The code contains 3 programs:
 - `ChafeeInfante/sampleDyn`,
 - `ChafeeInfante/findPeriodicPoint`,
 - `ChafeeInfante/CAProof`.
+- `ChafeeInfante/C1AroundUstableOrbit`.
 
 The programs use data from files:
 - `ChafeeInfante/textFiles/initialValue.txt` - It contains coefficients for sine odd series used as initial data for the programs. For example,
