@@ -157,7 +157,7 @@ For this file, $X^0$ is build around zero and $h^0 = \sin(x).$ If this file woul
 Then the set $X^{0,h}$ has the form 
 
 $$
-X^{0,h} = \sum_{i=4}^\infty [-1,1]i^3
+X^{0,h} = \sum_{i=4}^\infty [-1,1]i^3\sin(ix)
 $$
 
 ## Code Information
