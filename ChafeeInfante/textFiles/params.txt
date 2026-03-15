@@ -1,0 +1,4 @@
+{5,6.28318530718,1.5,1}
+
+{lambda,omega,A,B}
+u_t = u_{xx} + lambda * u - (A*sin(omega*t)+B)*u^3

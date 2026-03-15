@@ -1,0 +1,7 @@
+1e-4 0 5
+6 14
+12 14 10
+
+eps , C, s
+mainC0Size, fullC0Size
+mainC1Size, fullC1Size
