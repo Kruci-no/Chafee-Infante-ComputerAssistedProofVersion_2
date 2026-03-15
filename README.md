@@ -155,9 +155,11 @@ For this file, $X^0$ is build around zero and $h^0 = \sin(x).$ If this file woul
 1 -3
 ```
 Then the set $X^{0,h}$ has the form 
+
 $$
 X^{0,h} = \sum_{i=4}^\infty [-1,1]i^3
 $$
+
 ## Code Information
 
 - The programs are using the [CAPD library](http://capd.ii.uj.edu.pl/index.php) - a tool for nonrigorous and validated numerics for dynamical systems.
