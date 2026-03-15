@@ -151,7 +151,7 @@ For this file, $X^0$ is build around zero and $h^0 = \sin(x).$ If this file woul
 ```
 {0,0,0,0,0,0,0,0,0,0}
 {0,0,0}
-[-1,1] -3
+1 -3
 ```
 Then the set $X^{0,h}$ has the form 
 $$
