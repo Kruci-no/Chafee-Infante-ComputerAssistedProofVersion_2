@@ -125,13 +125,13 @@ The rigorous C0 integration is performed in the odd subspace of Fourier coeffici
 The rigorous C1 integration is conducted in full space, not just in the odd subspace. In this case, there are variables representing variational equations. Therefore, the actual number of modes used for differential inclusion is $2 * \text{mainC1Size}$ and the number of modes explicitly represented is $2 * \text{fullC1Size}$.
 
 The remaining columns are computed by setting them to be:
-
 $$
     X^{0,h} = \sum_{i=\text{expColumns}+1}^\infty u_i\sin(ix),\quad \text{where } u_i\in[-1,1].
 $$
 
 ## ChafeeInfante\C1AroundUstableOrbit.cpp
 This program is used to get the estimate for $\frac{\partial T}{\partial x}(X_0) X^{h,0},$ and print it. The set $X^0$ is prepared in the same way as in the program `ChafeeInfante\CAProof.cpp`. Set $X^{0,h}$ is in the form
+
 $$
 X^{0,h}=\sum_{i=1}^n h^0_i\sin(ix) + \sum_{i=n+1}^\infty \frac{[-1,1]}{k^s}
 $$
