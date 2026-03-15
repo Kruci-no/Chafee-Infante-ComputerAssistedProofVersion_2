@@ -132,7 +132,7 @@ $$
 ## Code Information
 
 - The programs are using the [CAPD library](http://capd.ii.uj.edu.pl/index.php) - a tool for nonrigorous and validated numerics for dynamical systems.
-  - Used version of the library: 5.1.2,
+  - Used version of the library: 6.0.0,
   - The Makefile assumes that the CAPD library is located in the following position relative to the main directory:
    ```
    # directory where capd scripts are (e.g. capd-config)
