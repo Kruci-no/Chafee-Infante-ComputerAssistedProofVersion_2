@@ -142,6 +142,7 @@ The coefficients $h^0_i$ are taken from the file `ChafeeInfante/textFiles/initia
 {0,0,0,0,0,0,0,0,0,0}
 {1,1,1,1,0,0,0,0,0,0}
 0 3
+-------------
 First line u^0 coefficints
 Second line h^0 coefficints
 Third line C_h and s_h
