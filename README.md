@@ -130,6 +130,8 @@ $$
     X^{0,h} = \sum_{i=\text{expColumns}+1}^\infty u_i\sin(ix),\quad \text{where } u_i\in[-1,1].
 $$
 
+## ChafeeInfante\C1AroundUstableOrbit.cpp
+
 ## Code Information
 
 - The programs are using the [CAPD library](http://capd.ii.uj.edu.pl/index.php) - a tool for nonrigorous and validated numerics for dynamical systems.
